@@ -60,11 +60,11 @@ Say your programming a collision to happen at point A..
 
 Without normalization, it would look sort of like this.
 
-![collision](C:\Users\omanb\Downloads\collision.PNG)
+![collision](https://i.ibb.co/mJDfRV6/collision.png)
 
 See why this is a problem, because the object is flinging longer than the initial impact, that isn't realistic, sometimes the default physics that you programmed, will probably fling the object, to god knows where, so we to normalize the positions, we'd use the inverse square root to maybe give us more accurate results;
 
-![collision2](C:\Users\omanb\Downloads\collision2.PNG)
+![collision2](https://ibb.co/4sqvh8c/collision2.png)
 
 Physics engines and fast rendering isn't also an issue, there's also when creating big games, having really bad FPS issues, because of how much the shaders take a toll on the GPU and CPU. Even so with a GPU being able to run a lot of tasks fairly quick.
 
